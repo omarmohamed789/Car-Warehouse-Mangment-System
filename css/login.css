@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Righteous&family=Secular+One&display=swap');
+body{
+    background: url(../images/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.signup,.sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3838385e;
+    width: max-content;
+    padding: 20px;
+    align-self: center;
+    
+}
+.form-title{
+    font-family: Righteous ;
+   text-align: center;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.form-button{
+    text-align: center;
+    
+}
+.form-submit{
+    font-family: 'Secular One';
+  width: 100px;
+}
+.signup-link{
+font-weight: 500px;
+font-family: Righteous ;
+color: black;
+background-color: aliceblue;
+text-decoration: none;
+border-radius: 20px;
+border:2px soild black;
+padding: 0px 10px;
+margin: auto;
+}
+.form-submit:hover{
+    background-color: rgb(122, 165, 250);
+    cursor: pointer;
+}
+.signup-link:hover{
+    background-color:  #3838385e;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
