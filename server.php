@@ -59,7 +59,7 @@ if (isset($_POST['reg_user'])){
         $_SESSION['username']=$username;
         $_SESSION['first_name']=$first_name;
         $_SESSION['last_name']=$last_name;
-        header('location:login.php');
+        header('location:html/login.html');
         
     }
 };
@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
             $_SESSION['first_name'] =$row["first_name"];
             
             $_SESSION['last_name'] =$row["last_name"];
-            header('location:display.php');
+            header('location:html/display.html');
           }
           else 
           {
