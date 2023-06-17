@@ -36,5 +36,5 @@ if(isset($_POST['car_new'])){
       }
   
   }
-  include('html/update.html');
+  include('update.html');
 ?>

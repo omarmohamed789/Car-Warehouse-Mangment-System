@@ -1,5 +1,5 @@
 <?php
  include('server.php');
- include('html/update.html');
+ include('update.html');
  ?>
 

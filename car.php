@@ -2,6 +2,6 @@
 $errors = array(); 
 include('config.php');
 include ('addcar.php');
-include('html/car.html');
+include('car.html');
 
 ?>

@@ -1,5 +1,5 @@
 
 <?php 
 include('config.php');
-include('html/display.html');
+include('display.html');
 ?>
